@@ -7,6 +7,7 @@ app = Flask(__name__)
 app.config['SECRET_KEY'] = "chickenzarecool21837"
 debug = DebugToolbarExtension(app)
 
+####################################
 
 @app.route('/')
 def home_page():
